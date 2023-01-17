@@ -1,0 +1,51 @@
+﻿{
+  "LoginWithValidCredentials": {
+    "TestData": {
+      "ErrorMessage": ""
+    }
+  },
+
+  "LoginWithInValidCredentials_InvalidUserChar": {
+    "TestData": {
+      "item2": "item2",
+      "ErrorMessage": "We didn't recognize that email and/or password.Need help?"
+    }
+  },
+
+  "LoginWithInvalidCredentials_BadPass": {
+    "TestData": {
+      "BadPass": "1234",
+      "ErrorMessage": "We didn't recognize that email and/or password.Need help?"
+    }
+  },
+
+  "LoginWithInValidCredentials_NoUserInput": {
+    "TestData": {
+      "NoUser": "",
+      "NoPass": "",
+      "ErrorMessage": "We didn't recognize that email and/or password.Need help?"
+    }
+  },
+
+  "LoginWithInValidCredentials_NoPassInput": {
+    "TestData": {
+      "NoPass": "",
+      "ErrorMessage": "We didn't recognize that email and/or password.Need help?"
+    }
+  },
+
+  "LoginWithInValidCredentials_TooManyAttempts": {
+    "TestData": {
+      "BadPass": "1234",
+      "ErrorMessage": "We didn't recognize that email and/or password.Need help?",
+      "ErrorMessageTooMany": "Can’t remember? Don’t stress.Need help?"
+    }
+  },
+
+  "LoginWithInValidCredentials_OrgLoginOutsiteEmail": {
+    "TestData": {
+      "OrgErrorMessage": "This account can't log in with an organization yet. Please log in using your email and password."
+    }
+  }
+}
+
